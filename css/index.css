@@ -1,0 +1,358 @@
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 700px;
+	background:url(../images/background-analytics.jpg);
+	background-size: cover;	
+}
+.banner .bg_03{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+}
+.banner .col-md-12{
+	margin-top: 250px;
+}
+.banner .col-md-12 h1{
+	font-weight: 300;
+	color: #FFFFFF;
+	font-size: 48px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.banner .col-md-12 p{
+	font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.banner .col-md-12 .btn{
+	padding: 17px 42px;
+	font-size: 10px;
+	color: #FFFFFF;	
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: .3s;
+}
+.banner .col-md-12 .btn-border{		
+	border: 3px solid #FFFFFF;
+}
+.banner .col-md-12 .btn-border:hover{
+	background: white;
+	color: #3eabb8;
+}
+.banner .col-md-12 .btn-bg{
+	padding: 20px 45px;
+	background:#3eabb8;
+	margin-left: 24px;
+}
+.banner .col-md-12 .btn-bg:hover{
+	color:#3eabb8 ;
+	background: white;
+}
+@media screen and (max-width:768px ) {
+	.banner{
+		height: 550px;
+	}
+	.banner .col-md-12{
+		margin-top: 150px;
+	}
+	.banner .col-md-12 h1{
+		font-weight: 300;
+		color: #FFFFFF;
+		font-size: 28px;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.banner .col-md-12 p{
+		font-size: 18px;
+	    font-weight: 300;
+	    color: #FFFFFF;
+	    margin-bottom: 60px;
+	}
+	.banner .col-md-12 .btn{
+		padding: 10px 15px;
+		font-size: 10px;
+		color: #FFFFFF;	
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    text-transform: uppercase;
+	    border-radius: 0;
+	    transition: .3s;
+	}
+	.banner .col-md-12 .btn-border{				
+		border: 3px solid #FFFFFF;
+	}
+	.banner .col-md-12 .btn-bg{
+		padding: 12px 18px;
+		background:#3eabb8;	
+		margin-left: -4px;	
+	}
+}
+/*.ETL*/
+.ETL{
+	padding: 120px 0 ;
+}
+.ETL p{
+	position: relative;
+	font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #333;
+   
+}
+.ETL p span.position{
+	display: inline-block;
+	font-style: italic;
+	font-size: 18px;
+	position: relative;
+	top: -10px;
+}
+.ETL p .width_100{
+	display: inline-block;
+	width: 40px;
+	border-bottom: 2px solid #3eabb8;
+	color: #3eabb8;
+	text-decoration: none;
+	position: relative;
+	text-align: left;
+	transition: all .3s; 
+}
+.ETL p .width_100 i{
+	opacity: 0;
+	font-size: 20px;
+	position: absolute;
+	right:-37px;
+	top: 0;
+	transition: all .3s;
+}
+.ETL p .width_100:hover{
+	width: 60px;
+}
+.ETL p .width_100:hover i{
+	opacity: 1;
+	right:0;
+}
+@media only screen and (max-width:769px ) {
+	.ETL p{
+		position: relative;
+		font-size: 18px;
+	    font-weight: 400;
+	    line-height: 36px;
+	    color: #333;  
+	}
+	.ETL p .width_100 i{
+		top: 7px;
+	}
+}
+/*.three*/
+.three{
+	background: #f7f7f7;
+	padding: 120px 0 80px 0;
+}
+.three i{
+	display: block;
+	color: #3eabb8;
+    margin-bottom: 8px;
+   	font-size: 80px;
+}
+.three h5{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.Developer .col-md-6{
+	padding: 0;
+}
+
+.Developer .col-md-offset-2{
+	padding: 120px 0;
+}
+.Developer .col-md-offset-2 h2{
+	margin-bottom: 24px;    
+}
+.Developer .col-md-offset-2 p{
+	font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.Developer .col-md-offset-2 p span{
+	display: inline-block;
+	font-style: italic;
+	font-size: 12px;
+	position: relative;
+	top: -6px;
+}
+.Developer .col-md-offset-2 .btn{
+	padding: 17px 3px;
+	margin-top: 16px;
+	font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    min-width: 170px;
+    border: 3px solid #3eabb8;
+    -webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    border-radius: 0;   
+	text-transform: uppercase;
+	color: #3eabb8;
+}
+.Developer .col-md-offset-2 .hover:hover{
+	background: #3eabb8!important;
+	color: white!important;
+}
+.Developer .col-md-6 .col-md-offset-2{
+	padding:80px 0 0 0;
+}
+@media  screen and (max-width:995px ) {
+	.Developer .col-md-6 .col-md-offset-2{
+	padding:30px 0 30px 0;
+	text-align: center;
+}
+}
+/*.News*/
+.News{
+	width: 100%;
+	background: #f7f7f7;
+	padding:80px 0 40px 0;
+}
+.News .line-width{
+	width: 30px;
+	height: 1px;
+	background: black;
+	margin-bottom: 24px;
+}
+.News h5{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #777;
+   	margin-bottom: 24px;
+}
+.News h3{
+	font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    color: #333;
+}
+.News .row .col-md-4 .MAY{
+	cursor: pointer;
+	padding: 32px;
+	border: 3px solid #FFFFFF;
+	background: #FFFFFF;
+	transition: .3s;
+	margin-bottom: 30px;
+}
+.News .row .col-md-4 .MAY:hover{
+	border: 3px solid #3eabb8;
+}
+.News .row .col-md-4 h4{
+	font-weight: 700;
+	font-size: 14px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.News .row .col-md-4 h5{
+	 color: #3eabb8;
+}
+.News .row .col-md-4 p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+.News .row .col-md-4 p span{
+	position: relative;
+	top: -5px;
+	left: 0px;
+	font-size: 10px;
+}
+ .News .row .col-md-4 a{
+ 	font-weight: 400;
+ 	font-size: 14px;
+ 	color:#3eabb8 ;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	text-decoration: none;
+ 	display: block;
+ 	width: 88px;
+ 	border-bottom: 2px solid #3eabb8;
+ 	position: relative;
+ 	transition: .3s;
+ 	margin-bottom: 60px;
+ }   
+.News .row .col-md-4 a i{
+  	display: block;
+  	position: absolute;
+  	right: -35px;
+  	top: 9px;
+  	font-size: 10px;
+  	opacity: 0;
+  	transition: .3s;
+  }
+.News .row .col-md-4 a:hover{
+   	width: 108px;
+   
+   }
+.News .row .col-md-4 a:hover i{
+	opacity: 1;
+	right: -1px;
+}
+/*.GET*/
+.GET{
+	width: 100%;
+	padding: 80px 0;
+}
+.GET h4{
+	color: #3eabb8;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}   
+.GET span{
+	display: inline-block;
+	color: #3eabb8;
+	font-size: 24px;
+	height: 25px;
+	padding-top: 5px;
+}
+.GET span.glyphicon{
+	top: 10px;
+}
+.GET a{
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #3eabb8;
+	border-bottom: 2px solid #3eabb8;
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	transition: .3s;
+}
+.GET a i{
+	display: block;
+	position: absolute;
+	right: -20px;
+	top: 9px;
+	font-size: 12px;
+	opacity: 0;
+	transition: .3s;
+}
+.GET a:hover{
+	width: 94px;
+}
+.GET a:hover i{
+	right: 2px;
+	opacity: 1;
+}

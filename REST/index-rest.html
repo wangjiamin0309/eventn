@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" href="../css/css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<title>about</title>
+	</head>
+	<body>
+		<header class="navbar navbar-fixed-top bg_black">
+			<div class="container">
+				<div class="logo navbar-header">
+					<a href="../index.html" class="navbar-brand"><img src="images/header-icon.png" /></a>		
+					<button class="btn-link navbar-toggle hidden_btn visible-sm visible-xs pull-right" data-toggle="collapse" data-target="#subnav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+				</div>
+				<div class="collapse" id="subnav">
+					<ul class="subnav nav-stacked">
+						<li><a href="../about/index-about.html">About</a></li>
+						<li><a href="../Service/index-server.html">Service Recipes</a></li>
+						<li>
+							<a href="#">Docs<i class="caret pull-right"></i></a>
+							<ul class="small_a nav">
+								<li><a href="../Getting/index-getting.html">Getting Started Guide</a></li>
+								<li><a href="../User/index-user.html">User Guide</a></li>
+								<li><a href="../REST/index-rest.html">REST API</a></li>
+							</ul>
+						</li>
+						<li><a href="../pricing/index-pricing.html">Pricing</a></li>
+						<li><a href="../Blog/index-blog.html">Blog</a></li>
+						<li><a href="../Contact/index-contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<ul class="navbar-nav nav main_nav visible-lg visible-md">
+					<li><a href="../about/index-about.html">About</a></li>
+					<li><a href="../Service/index-server.html">Service Recipes</a></li>
+					<li>
+						<a href="#">Docs<i class="caret pull-right"></i></a>
+						<ul class="small_a nav">
+							<li><a href="../Getting/index-getting.html">Getting Started Guide</a></li>
+							<li><a href="../User/index-user.html">User Guide</a></li>
+							<li><a href="../REST/index-rest.html">REST API</a></li>
+						</ul>
+					</li>
+					<li><a href="../pricing/index-pricing.html">Pricing</a></li>
+					<li><a href="../Blog/index-blog.html">Blog</a></li>
+					<li><a href="../Contact/index-contact.html">Contact</a></li>
+				</ul>
+				<div class="navbar-btn pull-right visible-lg">
+					<a href="../alert/sign.html" class="btn btn-link">Sign Up</a>
+					<a href="../alert/login.html" class="btn btn-link">Login</a>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<section class="User ">
+				<div class="container">
+					<div class="row">
+						<div class="text-center col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 ">
+							<h2>REST API</h2>
+							<h4>HTTP service and data management</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="API">
+				<div class="container">
+					<div class="row">
+						<div class="markdown-toc ">
+							<ul>
+								<li>
+									<a href="#">API Reference</a>
+									<ul>
+										<li><a href="#">Resource Summary</a></li>
+										<li><a href="#">Authentication Overview</a></li>
+										<li><a href="#">POST /authentication</a></li>
+										<li><a href="#">GET /log/{request_id}</a></li>
+										<li><a href="#">GET /log/{service_id}</a></li>
+										<li><a href="#">GET /service</a></li>
+										<li><a href="#">POST /service</a></li>
+										<li><a href="#">GET /store</a></li>
+										<li><a href="#">POST /store</a></li>
+										<li><a href="#">GET /store/{store_id}</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-9 col-md-offset-1">
+							<h1>API Reference</h1><br />
+							<p>The Event<span>n</span> API exclusively supports JSON for requests and responses.</p>
+							<h2>Resource Summary</h2>
+							<span><code>api.eventn.com</code></span>
+							<table class="table-responsive">
+								<thead>
+									<tr>
+										<th>Resource</th>
+										<th>GET</th>
+										<th>POST</th>
+										<th>PUT</th>
+										<th>DELETE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<code>/authentication</code>
+										</td>
+										<td>-</td>
+										<td>Returns a valid authentication token and user object. <a href="#">Read More</a></td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/log/{request_id}</code>
+										</td>
+										<td>Returns a valid authentication token and user object.<a href="#">Read More</a> </td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/log/{service_id}</code>
+										</td>
+										
+										<td>Returns a valid authentication token and user object. <a href="#">Read More</a></td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/service</code>
+										</td>
+										
+										<td>Returns a valid authentication token and user object. <a href="#">Read More</a></td>
+										<td>Create new service. <a href="#">Read More</a></td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/service/{service_id}</code>
+										</td>
+										
+										<td>Returns a valid authentication token and user object. </td>
+										<td>-</td>
+										<td>Update a service function.</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/store</code>
+										</td>
+										
+										<td>Returns a valid  <a href="#">Read More</a></td>
+										<td>Create new service. <a href="#">Read More</a></td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>
+											<code>/store/{store_id}</code>
+										</td>
+										
+										<td>Returns a valid <a href="#">Read More</a></td>
+										<td>-</td>
+										<td>Update a store</td>
+										<td>Delete a store</td>
+									</tr>
+								</tbody>
+							</table>
+							<span><code>service.eventn.com</code></span>
+							<p>Invoke a microservice by making an HTTP request.</p>
+							<table class="table-responsive">
+								<thead>
+									<tr>
+										<th>Resource</th>
+										<th>GET</th>
+										<th>POST</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><code>/{service_id}</code></td>
+										<td>Execute GET function</td>
+										<td>Execute POST function</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="line-width"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer >
+				<div class="container">
+					<div class="row border-bottom">
+						<div class="col-md-2 col-sm-3">
+							<ul class="nav">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Pricing</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<ul class="nav">
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Twitter</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-md-offset-4 col-sm-6">
+							<p>Subscribe to our newsletter to receive news & updates.</p>
+			<form>
+				<div class="input-group">
+					<input type="text" placeholder="Your Email Here" />
+					<div class="input-group-btn">
+						<div class="btn glyphicon glyphicon-chevron-right"></div>
+					</div>					
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<div class="row bottom">
+		<div class="col-md-12">
+			<p>© Copyright 2017 Event 
+				<span>n</span>
+				- Made with
+				<i class="glyphicon glyphicon-heart-empty"></i>
+				in San Francisco, California.
+			</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+	<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</html>

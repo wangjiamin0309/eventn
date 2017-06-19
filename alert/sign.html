@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" href="../css/css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/sign-index.css"/>		
+		<title></title>
+	</head>
+	<body>
+		<header class="navbar navbar-fixed-top bg_black">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="../index.html"><img src="images/header-icon.png"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="sign">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-12 top">
+							<span>Sign up</span>
+						</div>
+						<div class="col-md-8 left">
+							<h4>Welcome to Event<span>n</span></h4>
+							<p><strong>NOTE:</strong>Event<span>n</span>is currently in a public beta period and might be changed in backward-incompatible ways. It is not currently subject to any SLA or deprecation policy.</p>
+							<p class="small-a">Already have an account?<a href="#"> Log in with existing account.</a></p>
+							
+						</div>
+						<div class="col-md-4 right">
+							<div class="panel">
+								<div class="panel-body">
+									<form>			
+										<div class="form-1">
+											<input type="text"  class="form-control"/>
+											<label>First name<span class="pull-right">*</span></label>
+											<hr />
+										</div>
+										<div class="form-1">
+											<input type="text"  class="form-control"/>
+											<label>Last name<span class="pull-right">*</span></label>
+											<hr />
+										</div>
+										<div class="form-1">
+											<input type="text"  class="form-control"/>
+											<label>E-mail<span class="pull-right">*</span></label>
+											<hr />
+										</div>
+										<div class="form-1">
+											<input type="password" class="form-control"/>
+											<label>Password<span class="pull-right">*</span></label>
+											<hr />
+										</div>
+									</form>
+									<p>Signing up signifies that you have read and agree to the <a href="#">Terms of Service</a> and our <a href="#">Privacy Policy.</a></p>
+								</div>
+								<div class="panel-footer">
+									<form class="bot">
+										<input type="submit" value="SIGN UP"  class="form-control"/>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</html>
+<script type="text/javascript">
+	$(function(){
+		$('.form-control').focus(function(){
+			$(this).next().css("line-height","17px");
+			$(this).next().next().css("transform","scale(1)")
+			
+		})
+		$('.form-control').blur(function(){
+			$(this).next().css("line-height","50px")
+			$(this).next().next().css("transform","scale(0)")
+		})
+	})
+</script>

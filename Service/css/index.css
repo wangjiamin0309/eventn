@@ -1,0 +1,124 @@
+
+/*server*/
+.server{
+	padding: 80px 0 40px 0;
+	background: #f7f7f7;
+}
+.server .line-width{
+	width: 36px;
+	height: 1px;
+	background: #333333;
+}
+.server h5{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 24px 0 24px 0;
+}
+.server h2{
+	font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 64px 0;
+}
+.server .col-sm-12 a{
+	display:inline-block ;
+}
+.server .col-sm-12 a.btn{
+	padding: 10px 36px;
+	border: 2px solid #CCCCCC;
+	margin-right: 32px;
+	border-radius: 0;
+	color: #3eabb8;
+	transition: .3s;
+	margin-bottom: 20px;
+}
+.server .col-sm-12 a.btn:hover{
+	color:white;
+	background:#3eabb8;
+	border: 2px solid #3eabb8;
+}
+@media  screen and (max-width:768px ) {
+	.server h2{
+		font-size:20px ;
+		line-height: 28px;
+	}
+}
+/*artile*/
+
+.artile{
+	background: #f7f7f7;
+	padding: 10px 0 50px 0;
+}
+
+.artile .col-md-4{
+	margin-bottom: 40px;
+	
+}
+.artile .media-heading{
+	height: 200px;
+	margin-bottom: 15px;
+}
+.artile .media-heading div{
+	height: 200px;
+	display: block;
+	background-size: cover!important;
+}
+.artile .media-heading img{
+	width: 100%;
+	display: block;
+	height: 200px;
+}
+.artile .media-body a{
+	text-decoration: none;
+	color: #3eabb8;
+	font-size: 32px;
+    line-height: 40px;
+}
+.artile .media-body>span{
+	display: block;
+	color: #777;
+	font-size: 12px;
+	margin: 15px 0 20px 0;
+}
+.artile .media-body p{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+}
+.artile .media-body p span{
+	position: relative;
+	left: 0;
+	top: -10px;
+	font-size: 10px;
+	font-style:italic;
+} 
+@media  screen and (max-width:768px ) {
+	.artile .media-body a{
+		font-size: 20px;
+    	line-height: 28px;	
+	}
+}
+/*Get*/
+.Get{
+	padding: 80px 0;
+	background: #FFFFFF;
+}
+.Get h2{
+	color: #3eabb8;
+}
+.Get a.btn{
+ 	margin-top: 20px;
+ 	padding: 19px 28px;
+ 	border: 3px solid #3eabb8;
+ 	border-radius: 0!important;
+ 	text-transform: uppercase;
+ 	font-size: 12px;
+ 	font-weight: 800;
+ 	color:#3eabb8 ;
+ 	transition: .3s;
+} 
+.Get a.btn:hover{
+  	background: #3eabb8;
+  	color: white;
+}  

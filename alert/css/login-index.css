@@ -1,0 +1,106 @@
+
+body{
+	background: #eee;
+	color: #777777;
+}
+.bg_black{
+	background: rgba(30,30,30,.7);
+	transition: .3s;
+}
+.bg_black:hover{
+	background: rgba(51,51,51,.9);
+}
+/*logo*/
+.bg_black .navbar-brand {
+    float: left;
+    height: 60px;
+    padding: 20px 60px 20px 20px;
+}    
+.bg_black .logo img{
+	max-height: 25px;	
+}
+section{
+	padding-top:64px ;
+	
+}
+.wrap .panel{
+	width: 330px;
+	margin: 0 auto;
+	border: none;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14)
+	,0 1px 10px 0 rgba(0,0,0,.12),
+	0 2px 4px -1px rgba(0,0,0,.2);
+	
+}
+.wrap .panel .panel-heading{
+	background: #3eabb8;
+	padding: 150px 16px 16px 16px;
+}
+.wrap .panel .panel-heading span{
+	font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+form .form-1{
+	padding: 20px 0;
+	position: relative;
+}
+form .form-1 input{
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-radius:0;
+	padding: 2px 0;
+	height: 25px;
+	z-index: 1000;
+	position: absolute;
+	top: 33px;
+	left: 0;
+	background: transparent !important;
+}
+form .form-1 input:focus {
+	outline: 0 !important;			
+	outline-offset: none;
+	box-shadow: none;
+	border: none;
+	
+}
+
+form .form-1 label{
+	width: 100%;
+	display: block;
+	padding: 0 3px;
+	color: #777777;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 50px;
+	height: 37px;
+	transition: .3s;
+	position: relative;
+}
+form .form-1 hr{
+	height: 2px;
+	background:#3eabb8 ;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	transform: scale(0);
+	transition: all .3s;
+}
+form .form-1 label span{
+	display: block;
+}
+.wrap .panel .panel-body p a{
+	color: #ff4081;
+	font-weight: 500;
+	text-decoration:underline;
+}
+.bot{
+	background:#eee ;
+}
+.bot input[type="submit"]{
+	background: #C0C0C0;
+	text-transform: uppercase;
+}

@@ -1,0 +1,195 @@
+body{
+	background: #eee;
+	color: #777777;
+}
+.bg_black{
+	background: rgba(30,30,30,.7);
+	transition: .3s;
+}
+.bg_black .navbar-brand a{
+	display: block;
+}
+.bg_black .navbar-brand a img{
+	height: 25px;
+}
+.sign{
+	margin-top: 64px;
+}
+.sign .row{
+	padding: 32px 0;	
+}
+.sign .row .col-md-offset-2{
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14)
+	,0 1px 10px 0 rgba(0,0,0,.12),
+	0 2px 4px -1px rgba(0,0,0,.2);
+	padding: 0;
+	background: #FFFFFF;
+}
+.sign .row .top{
+	padding:150px 16px 16px 16px;
+	background: #3eabb8;
+	color: #FFFFFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	
+}
+.sign .row .top span{
+	font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+.sign .row .left{
+	padding: 16px;
+}
+.sign .row .left h4{
+	font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.sign .row .left h4 span{
+	position: relative;
+	top: -11px;
+	left: 0;
+	font-size: 18px;
+	font-style:italic
+}
+.sign .row .left p{
+	font-size:14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.sign .row .left p span{
+	position: relative;
+	left: 0;
+	top: -6px;
+	font-style: italic;
+	font-size: 10px;
+}
+.sign .row .left p.small-a{
+	font-size: 12px;
+	line-height: 18px;
+	opacity: 0.8;
+}
+.sign .row .left p.small-a a{
+	display: inline-block;
+	position: relative;
+	color: #3eabb8;
+	text-decoration: none;
+}
+.sign .row .left p.small-a a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 45%;
+	transform: scale(1);
+	height: 2px;
+	width: 0%;
+	background: #3eabb8;
+	transition: .3s;
+}
+.sign .row .left p.small-a a:hover:after{
+	width: 100%;
+	left: 0;
+}
+.sign .row .right{
+	padding-right: 0;
+}
+.sign .row .right .panel{
+	margin-bottom: 0;
+	border: 0;
+}
+.sign .row .right .panel-body{
+	border-left: 1px solid  #eeeCCC;
+	padding: 16px;
+}
+.sign .row .right form .form-1{
+	padding: 20px 0;
+	position: relative;
+}
+.sign .row .right form .form-1 input{
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-radius:0;
+	padding: 2px 0;
+	height: 25px;
+	z-index: 1000;
+	position: absolute;
+	top: 33px;
+	left: 0;
+	background: transparent !important;
+}
+.sign .row .right form .form-1 input:focus {
+	outline: 0 !important;			
+	outline-offset: none;
+	box-shadow: none;
+	border: none;
+	
+}
+
+.sign .row .right form .form-1 label{
+	width: 100%;
+	display: block;
+	padding: 0 3px;
+	color: #777777;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 50px;
+	height: 37px;
+	transition: .3s;
+	position: relative;
+}
+.sign .row .right form .form-1 hr{
+	height: 2px;
+	background:#3eabb8 ;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	transform: scale(0);
+	transition: all .3s;
+}
+.sign .row .right form .form-1 label span{
+	display: block;
+}
+.sign .row .right p{
+	color: rgba(0,0,0,.54);
+    font-size: 12px;
+    line-height: 18px;
+}
+.sign .row .right p a{
+	display: inline-block;
+	position: relative;
+	color: #3eabb8;
+	text-decoration: none;
+}
+.sign .row .right p a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 45%;
+	transform: scale(1);
+	height: 2px;
+	width: 0%;
+	background: #3eabb8;
+	transition: .3s;
+}
+.sign .row .right p a:hover:after{
+	width: 100%;
+	left: 0;
+}
+
+.sign .row .right .bot{
+	background:#eee ;
+}
+.sign .row .right .bot input[type="submit"]{
+	background: #C0C0C0;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.5);
+}

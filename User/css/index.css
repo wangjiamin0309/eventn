@@ -1,0 +1,159 @@
+
+/*User*/
+.User{
+	padding: 160px 0;
+	background: #f7f7f7;
+}
+.User h2{
+	font-size: 40px;
+    line-height: 48px;
+    color: #3eabb8;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.User h4{
+	color: #60bec9;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.User h4 span{
+	position: relative;
+	left: 0;
+	top: -12px;
+	font-style: italic;
+	font-size: 18px;
+}
+@media  screen and (max-width: 769px) {
+	.User h2{
+		font-size: 32px;
+	}
+	.User h4{
+		font-size: 18px;
+	}
+	.User h4 span{
+		top: -8px;
+	}
+}
+/*Introduction*/
+.Introduction{
+	padding: 80px 0;
+}
+.Introduction .col-md-9 h1{
+	font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 32px;
+    font-weight: 300;
+    color: #333333;
+    border-bottom: 1px solid #CCCCCC;
+}
+.Introduction .col-md-9 h2{
+	font-size: 32px;
+    line-height: 40px;
+    color: #333;
+    margin-bottom: 32px;
+    font-weight: 300;
+}
+.Introduction .col-md-9 h3{
+	margin-bottom: 0;
+}
+.Introduction .col-md-9 p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.Introduction .col-md-9 p span{
+	position: relative;
+	top: -6px;
+	left: 0px;
+	font-style: italic;
+}
+.Introduction .col-md-9 ul{
+	margin-bottom: 10px;
+}
+.Introduction .col-md-9 ul li{
+	
+	line-height: 30px;
+}
+.Introduction .col-md-9 ul li i{
+	display: inline-block;
+	font-size: 10px;
+	color: #3eabb8;
+	margin-right: 15px;
+}
+.Introduction .col-md-9 ul li code{
+	color: #3eabb8;
+	background: none;
+}
+.Introduction .col-md-9 .table-responsive  th{
+	border-top: 0;
+	padding: 8px;
+}
+.Introduction .col-md-9 .border-two{
+	border-top: 2px solid #CCCCCC !important;
+}
+.Introduction .col-md-9 .table-responsive code{
+	background: none;
+	color:#3eabb8 ;
+}
+.Introduction .col-md-9 p code{
+	background: none;
+	color:#3eabb8 ;
+}
+.Introduction .col-md-9 p a{
+	text-decoration: none;
+}
+.Introduction .markdown-toc{
+	width: 220px;
+	margin-right: -25px;
+	float: right;
+}
+.Introduction .markdown-toc a{
+	text-decoration: none;
+}
+.Introduction .markdown-toc>ul>li>a{
+	text-transform: uppercase;
+	font-weight: 700;
+    color: #3eabb8;
+    margin: 24px 0 24px;
+    display: block;
+}
+.Introduction .markdown-toc a{
+	display: block;
+	text-align: left;
+}
+.Introduction .markdown-toc a:hover{
+	color: #23527c;
+}
+.Introduction .markdown-toc ul{
+	padding-left:20px;
+}
+.Introduction .markdown-toc>ul>li>ul>li>a{
+	display: block;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #3eabb8;
+     margin: 4px 0 4px;
+}
+
+.Introduction .markdown-toc>ul>li>ul>li>ul>li>a{
+	display: block;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #3eabb8;
+     margin: 7px 0 7px;
+}
+.Introduction .markdown-toc a.small-a{
+	font-size: 12px;
+	 color: #3eabb8;
+}
+@media screen and (max-width:992px ) {
+	.Introduction .markdown-toc{
+		margin-right: 0;
+		float: none!important;
+	}
+}
+
+

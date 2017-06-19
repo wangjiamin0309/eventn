@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" href="../css/css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<title>about</title>
+	</head>
+	<body>
+		<header class="navbar navbar-fixed-top bg_black">
+			<div class="container">
+				<div class="logo navbar-header">
+					<a href="../index.html" class="navbar-brand"><img src="images/header-icon.png" /></a>		
+					<button class="btn-link navbar-toggle hidden_btn visible-sm visible-xs pull-right" data-toggle="collapse" data-target="#subnav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+				</div>
+				<div class="collapse" id="subnav">
+					<ul class="subnav nav-stacked">
+						<li><a href="../about/index-about.html">About</a></li>
+						<li><a href="../Service/index-server.html">Service Recipes</a></li>
+						<li>
+							<a href="#">Docs<i class="caret pull-right"></i></a>
+							<ul class="small_a nav">
+								<li><a href="../Getting/index-getting.html">Getting Started Guide</a></li>
+								<li><a href="../User/index-user.html">User Guide</a></li>
+								<li><a href="../REST/index-rest.html">REST API</a></li>
+							</ul>
+						</li>
+						<li><a href="../pricing/index-pricing.html">Pricing</a></li>
+						<li><a href="../Blog/index-blog.html">Blog</a></li>
+						<li><a href="../Contact/index-contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<ul class="navbar-nav nav main_nav visible-lg visible-md">
+					<li><a href="../about/index-about.html">About</a></li>
+					<li><a href="../Service/index-server.html">Service Recipes</a></li>
+					<li>
+						<a href="#">Docs<i class="caret pull-right"></i></a>
+						<ul class="small_a nav">
+							<li><a href="../Getting/index-getting.html">Getting Started Guide</a></li>
+							<li><a href="../User/index-user.html">User Guide</a></li>
+							<li><a href="../REST/index-rest.html">REST API</a></li>
+						</ul>
+					</li>
+					<li><a href="../pricing/index-pricing.html">Pricing</a></li>
+					<li><a href="../Blog/index-blog.html">Blog</a></li>
+					<li><a href="../Contact/index-contact.html">Contact</a></li>
+				</ul>
+				<div class="navbar-btn pull-right visible-lg">
+					<a href="../alert/sign.html" class="btn btn-link">Sign Up</a>
+					<a href="../alert/login.html" class="btn btn-link">Login</a>
+				</div>
+			</div>
+		</header>
+		<div class="content text-center">
+			<section class="pricing">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-12 col-lg-offset-0 col-xs-6 col-xs-offset-3 " >
+							<h1>Simple pricing with flexibility that scales</h1>
+							<p>Serverless architecture with a free allocation every month. Pay only for what you use.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-green text-center">
+				<h3>Public Beta - Free until end of June 2017.</h3>
+				<a href="#">Read FAQ</a>
+			</section>
+			<section class="Free text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<i class="glyphicon glyphicon-arrow-up"></i>
+							<h2>Free Monthly Allocation</h2>
+							<h4>24 hours/month of free compute time</h4>
+							<h4>250Mb MySQL Storage</h4>
+							<p> 86,430,855 ms/month of free compute time. As an example usage, this allocation equates to<strong> 1 req every 3 seconds</strong> or 864,309 events for services executing within 100ms each.</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<i class="glyphicon glyphicon-time"></i>
+							<h2>Compute Time Pricing</h2>
+							<h4>$0.0000020016/100 ms</h4>
+							<p class="margin-20">(Equates to $2.00 per million @ 100ms each)</p>
+							<p>Unlimited Microservices</p>
+							<p>512 Mb Service Execution Memory</p>
+							<p>Expert Email Support</p>
+							<p>24x7 Monitoring</p>
+						</div>
+						<div class="col-md-12">
+							<a href="#" class="btn">Create Account</a>
+							<p>(No credit card details required)</p>
+						</div>
+					</div>					
+				</div>
+			</section>
+			<section class="FAQ text-left">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>FAQ's</h3>
+							<h5>What does "Free until end of June 2017" mean?</h5>
+							<p>It means exactly that! We won't begin charging you until July 1st 2017 when the public beta period ends. Charging will only begin when the free monthly allocation of compute time has been used and you have consented to proceed with billing by entering credit card details. No credit card details are required at signup, or to use the free allocation.</p>
+							<p>As default for the public beta, accounts are rate limited to 10 req/sec. Need more? Great! <a href="#">Contact us</a> to have the rate limit increased.</p>
+							<h5>How is the service execution timed and billed?</h5>
+							<p>Service execution time is billed in 100ms increments and rounded up. Service execution time is measured from when your code starts running until is completes or otherwise terminates. The free allocation is deducted from the total monthly service execution time.</p>
+							<h5>How much memory is allocated to service execution?</h5>
+							<p>As default, services run with<strong> allocated for code execution. Need more? </strong><a href="#">Contact us</a></p>
+							<h5>How do your billing cycles work?</h5>
+							<p>Event<span>n</span> bills by calendar month. This means that in any given month the bill you receive will be for the previous month of use, not the current one (similar to the way phone services work).</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer >
+				<div class="container">
+					<div class="row border-bottom">
+						<div class="col-md-2 col-sm-3">
+							<ul class="nav">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Pricing</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<ul class="nav">
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Twitter</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-md-offset-4 col-sm-6">
+							<p>Subscribe to our newsletter to receive news & updates.</p>
+			<form>
+				<div class="input-group">
+					<input type="text" placeholder="Your Email Here" />
+					<div class="input-group-btn">
+						<div class="btn glyphicon glyphicon-chevron-right"></div>
+					</div>					
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<div class="row bottom">
+		<div class="col-md-12">
+			<p>© Copyright 2017 Event 
+				<span>n</span>
+				- Made with
+				<i class="glyphicon glyphicon-heart-empty"></i>
+				in San Francisco, California.
+			</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+	<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</html>

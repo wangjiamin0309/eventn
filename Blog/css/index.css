@@ -1,0 +1,89 @@
+
+/*.blog*/
+.blog{
+	padding: 190px 0;
+	background:url(../images/background-data-warehouse.jpg) no-repeat center center;
+	background-size: cover;
+}
+.blog h1{
+	color: #FFFFFF;
+	font-size: 48px;
+}
+/*artile*/
+.artile{
+	padding: 80px 0;
+	background: #FFFFFF;
+}
+.artile .media{
+	margin-bottom: 60px;
+}
+.artile .one{
+	width: 100%;
+	height: 450px;
+	background:url(../images/blog-runscope-integration.png) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0;
+}
+.artile .two{
+	width: 100%;
+	height: 450px;
+	background:url(../images/blog-nodejs.jpg) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0;
+}
+.artile .media-body{
+	padding: 32px;
+    background: #f7f7f7;
+}
+.artile .media-body>span{
+	display: block;
+	color: #777777;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.artile .media-body h3{
+	font-weight: 300;
+    color: #3eabb8;
+    margin-bottom: 16px;
+    margin-bottom: 24px;
+}
+.artile .media-body h3 span{
+	position: relative;
+	left: 0;
+	top: -11px;
+	font-style: italic;
+	font-size: 18px;
+}
+.artile .media-body p{
+	font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: #777777;
+}
+.artile .media-body p a{
+	text-decoration: none;
+}
+.artile .media-body>a.btn{
+	display: inline-block;
+	padding: 8px 16px;
+	border: 2px solid #3eabb8;
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #3eabb8 ;
+	transition: .3s;
+}
+.artile .media-body>a.btn:hover{
+	color: white;
+	background:#3eabb8 ;
+}
+.artile .media-body p span{
+	position: relative;
+	left: 0;
+	top: -5px;
+	font-style: italic;
+}
+@media screen and (max-width:769px ) {
+	.artile .media-heading{height: 250px;}	
+}
